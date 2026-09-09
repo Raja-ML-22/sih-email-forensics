@@ -1,0 +1,206 @@
+Delivered-To: esakkip.ug.24.am@francisxavier.ac.in
+Received: by 2002:a05:612c:4391:b0:5f9:9a79:8 with SMTP id lm17csp344290vqb;
+        Wed, 9 Sep 2026 02:19:39 -0700 (PDT)
+X-Received: by 2002:a05:651c:a333:b0:3a3:38e2:aea1 with SMTP id 38308e7fff4ca-3a467a5fe7cmr33495071fa.2.1788945579090;
+        Wed, 09 Sep 2026 02:19:39 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1788945579; cv=none;
+        d=google.com; s=arc-20260327;
+        b=TuGNVb8oR2TbnIhpUiOuPFVUlKWpB76X41sN0n65QoXQ1r6SxBnRp81tprOuE0km2b
+         YsNne9fELbo4n9mkEmFQlMYJiBxzwhAUTe52b60bNDe3sfwKryl8PXH3UhLPAIBV0AUC
+         WUtRGV+VUFoaIYFDuqkJELN6jaunBUf9+clL2ae7MGcq9HPNy2nr06vSoZ0ZITkvqV/3
+         LG1gsR3yoZIuAqTAf5jwOmz4/9tes0uE/q5S1CcQLX5Lc+IFveV/wgwTt0/yXSuI2s24
+         7XIq7ZWFebcD1nYiTdmYf4+bNGULMhRh9s/Z4zFC/6vu2oQrwODyfWmqcPehuJ5lumYD
+         2/BA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327;
+        h=message-id:date:to:from:subject:content-transfer-encoding
+         :mime-version:dkim-signature:dkim-filter;
+        bh=DpqQfmV4MP/eE8kAn0GNIJJ0EWfFQdh58HJXCkiO+WA=;
+        fh=Rm+UF3cSsL0rzsMAB4fKfOj
+        LNgK9jurvxAhJM+DDvl8=;
+        b=OvImNmmBj56QzV7Gju4kWbDlvXjVv4QU1yXhxUt8zuk3uOrJKMh9XY20pJsele9eh1
+         HM6W6llytGhP8NoGFNYgggmxbEpr/Ja0yekblCg3rQ8O1gUhRbfVj7tvbV76OdZv+hVX
+         dj6BQPZ6724ZbD+XxGwTkxa0nuw340476fw+j3q201ZRfsoKKOXxCReUhww0987pHgSK
+         1xXJpaQ0LwzKMeel/dea8muHVseXGuw/tqeVnnCuC14sZefCNbZALP+5PmAUG903r0Y9
+         3ixYadsK2aDV+ZmKva/1OPwOueSA+hN7Y6QxAygAWHDhVKrVdBGzUSkKnfQqe60sKaEw
+         jdFA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@aiijc.com header.s=support header.b="SngwVl/+";
+       spf=pass (google.com: domain of support@aiijc.com designates 89.221.228.76 as permitted sender) smtp.mailfrom=support@aiijc.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aiijc.com
+Return-Path: <support@aiijc.com>
+Received: from mx3.lab.smailru.net (mx3.lab.smailru.net. [89.221.228.76])
+        by mx.google.com with ESMTPS id 2adb3069b0e04-5b6166f86f4si13211220e87.258.2026.09.09.02.19.37
+        for <esakkip.ug.24.am@francisxavier.ac.in>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 09 Sep 2026 02:19:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of support@aiijc.com designates 89.221.228.76 as permitted sender) client-ip=89.221.228.76;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@aiijc.com header.s=support header.b="SngwVl/+";
+       spf=pass (google.com: domain of support@aiijc.com designates 89.221.228.76 as permitted sender) smtp.mailfrom=support@aiijc.com;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=aiijc.com
+Received: from cups6-i.lab (cups6.lab [10.12.71.6])
+	by mx3.lab.smailru.net (Postfix) with ESMTP id 1B66F865E
+	for <esakkip.ug.24.am@francisxavier.ac.in>; Wed,  9 Sep 2026 12:19:37 +0300 (MSK)
+DKIM-Filter: OpenDKIM Filter v2.11.0 mx3.lab.smailru.net 1B66F865E
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aiijc.com;
+	s=support; t=1788945577;
+	bh=DpqQfmV4MP/eE8kAn0GNIJJ0EWfFQdh58HJXCkiO+WA=;
+	h=Subject:From:To:Date:From;
+	b=SngwVl/+aweEATvCk+qCGsqBag7pDDiXtHz3LOv7KnLYvam0FdEe3qxt0D4tdX3Vg
+	 BWge7fE0L1cfpTT+ARNHC+ntzFW7BYcGRENX3Y4M3uMeKbitd36o5H0ucL/07cPp+t
+	 GTcTsMxNYordY6pQQZp7GmUI67RKtL3j4p+MhZRg=
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: AI Challenge Qualification Stage Ends on September 15
+From: AI Challenge <support@aiijc.com>
+To: esakkip.ug.24.am@francisxavier.ac.in
+Date: Wed, 09 Sep 2026 09:19:37 -0000
+Message-ID: <178894557710.19828.10982062750325055049@cups6-i.lab>
+X-Project-ID: cups-1960-7145968
+
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
+<style type="text/css">* {
+      box-sizing: border-box
+    }
+    
+    body {
+      margin: 0;
+      padding: 0
+    }
+    
+    a[x-apple-data-detectors] {
+      color: inherit!important;
+      text-decoration: inherit!important
+    }
+    
+    #MessageViewBody a {
+      color: inherit;
+      text-decoration: none
+    }
+    
+    p {
+      line-height: inherit
+    }
+    
+    .desktop_hide,
+    .desktop_hide table {
+      mso-hide: all;
+      display: none;
+      max-height: 0;
+      overflow: hidden
+    }
+    
+    @media (max-width:620px) {
+      .fullMobileWidth,
+      .row-content {
+        width: 100%!important
+      }
+      .mobile_hide {
+        display: none
+      }
+      .stack .column {
+        width: 100%;
+        display: block
+      }
+      .mobile_hide {
+        min-height: 0;
+        max-height: 0;
+        max-width: 0;
+        overflow: hidden;
+        font-size: 0
+      }
+      .desktop_hide,
+      .desktop_hide table {
+        display: table!important;
+        max-height: none!important
+      }
+    }
+</style>
+<table border="0" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fff" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0" width="100%">
+				<tbody>
+					<tr>
+						<td>
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;background-color:#fffff;border-radius:0;color:#000;width:600px" width="600">
+							<tbody>
+								<tr>
+									<td class="column column-1" style="mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top;padding-top:0;padding-bottom:5px;border-top:0;border-right:0;border-bottom:0;border-left:0" width="100%">
+									<table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0" width="100%">
+										<tbody>
+											<tr>
+												<td class="pad" style="width:100%;padding-right:0;padding-left:0">
+												<div align="center" class="alignment" style="line-height:10px"><img src="https://davmedia.cups.online/editor_uploads/2026/06/03/en.png" style="height: 153px; width: 600px;" /></div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0" cellpadding="0" cellspacing="0" class="text_block block-2" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word" width="100%">
+										<tbody>
+											<tr>
+												<td class="pad" style="padding-bottom:25px;padding-left:30px;padding-right:30px;padding-top:25px">
+												<div style="line-height: 1.8;">
+												<p style="line-height:1.38"><span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">There’s not much time left before the qualification stage closes. This is your last chance to take part in the 2026 AI Challenge and earn your place in the Main Stage.</span></span></span></span></span></span><br />
+												<br />
+												<span style="font-size:11pt; font-variant-ligatures:normal; font-variant-alternates:normal; font-variant-numeric:normal; font-variant-east-asian:normal; font-variant-position:normal; white-space:pre-wrap"><span style="font-family:Arial, sans-serif"><span style="color:#000000"><span style="font-weight:400"><span style="font-style:normal"><span style="text-decoration:none">Getting started is simple: choose the category that suits you, solve the qualification task, and achieve the required passing score. If you qualify, you'll move on to practical challenges from leading companies, where you'll be able to strengthen your machine learning skills by working on real-world cases.<br />
+												<br />
+												Act now! The qualification stage ends on September 15, and the Main Stage ends on September 17, 2026.<br />
+												<br />
+												Good luck!<br />
+												<strong>AI Challenge Team</strong></span></span></span></span></span></span></p>
+
+												<p style="color: rgb(255, 255, 255); font-family: Verdana, Geneva, sans-serif; font-size: 14px; margin: 0px;">&nbsp;</p>
+												</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table border="0" cellpadding="0" cellspacing="0" class="divider_block block-3" role="presentation" style="mso-table-lspace:0;mso-table-rspace:0" width="100%">
+										<tbody>
+										</tbody>
+										<tbody>
+										</tbody>
+										<tbody>
+											<tr>
+												<td>
+												<p style="
+                  margin-top: 30px;
+                  margin-bottom: 40px;
+                  margin-left: auto;
+                  margin-right: auto;
+                  font-family: Arial, serif;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 14px;
+                  line-height: 16px;
+                  text-align: center;
+                  color: #99a0b4;
+                  width: 560px;
+                "><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b><span lang="EN-US" style="font-size:7.5pt"><span style="line-height:107%"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:#a5a5a5">You received this letter because you agreed to receive newsletters. If you do not want to receive newsletters, please <a href="http://https://aiijc.com/mailing/unsubscribe/esakkip.ug.24.am@francisxavier.ac.in/d44108557ffd9d2892cab4ee017263ea815822adbbf674d14ad50aa75b12cc95/?project=52">unsubscribe</a></span></span></span></span></b></span></span></span></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="text-align: center">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- End -->

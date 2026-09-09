@@ -1,0 +1,20 @@
+Received: from mail.suspicious-relay.xyz (185.220.101.45) by mx.victimcorp.com
+    with SMTP id abc123; Wed, 09 Sep 2026 10:15:00 +0530
+Received: from internal-mx1.victimcorp.com (10.0.0.5) by internal-mx2.victimcorp.com
+    with ESMTP id def456; Wed, 09 Sep 2026 10:15:02 +0530
+From: "Accounts Payable" <billing@paypa1-secure.xyz>
+Reply-To: attacker@totally-different-domain.top
+To: finance@victimcorp.com
+Subject: URGENT: Invoice Payment Overdue - Immediate Action Required
+Message-ID: <fake123@paypa1-secure.xyz>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Finance Team,
+
+This is an urgent notice. Your payment is overdue and immediate action is required
+to avoid account suspension. Please click here to confirm your password and
+complete the wire transfer within 24 hours: http://paypa1-secure.xyz/verify
+
+Regards,
+Accounts Payable

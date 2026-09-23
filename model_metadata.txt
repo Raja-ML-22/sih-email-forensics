@@ -1,0 +1,8 @@
+Model: Logistic Regression
+Trained on: Enron Spam Dataset (33,716 emails, github.com/MWiechmann/enron_spam_data)
+Train/test split: 80/20 stratified, random_state=42
+Accuracy: 0.9887
+Precision: 0.9847
+Recall: 0.9933
+F1: 0.9890
+ROC-AUC: 0.9988

@@ -1,0 +1,8 @@
+flask
+dnspython
+requests
+gunicorn
+reportlab
+scikit-learn
+joblib
+neo4j
